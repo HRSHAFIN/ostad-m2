@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Epixelab - We boost growth for your startup business</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abel&family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;800&family=Roboto:wght@400&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-white font-poppins text-black antialiased">
+  <!-- ================= Header ================= -->
+  <header class="relative z-20">
+    <!-- Hidden checkbox toggles the mobile menu (CSS only, no JavaScript) -->
+    <input type="checkbox" id="menu-toggle" class="peer sr-only" />
+
+    <nav class="mx-auto flex max-w-[1200px] items-center justify-between px-4 py-5 lg:px-[15px] lg:pt-12 lg:pb-0">
+      <a href="#" class="shrink-0">
+        <img src="images/logo.png" alt="Epixelab" class="w-[140px] sm:w-[180px] lg:w-[242px]" />
+      </a>
+
+      <ul class="hidden items-center gap-[30px] text-lg font-medium lg:ml-[60px] lg:flex xl:ml-[172px]">
+        <li><a href="#" class="transition hover:text-brand" aria-current="page">Home</a></li>
+        <li><a href="#about" class="transition hover:text-brand">About Us</a></li>
+        <li><a href="#app" class="transition hover:text-brand">Our App</a></li>
+        <li><a href="#contact" class="transition hover:text-brand">Contacts</a></li>
+      </ul>
+
+      <div class="ml-auto hidden items-center gap-5 text-lg font-medium lg:flex">
+        <a href="#" class="transition hover:text-brand">Log in</a>
+        <a href="#" class="rounded-lg bg-brand px-[26px] py-[10px] text-white transition hover:bg-orange-600">Sign up</a>
+      </div>
+
+      <!-- Mobile menu button -->
+      <label for="menu-toggle" class="cursor-pointer rounded-md p-2 text-navy lg:hidden" aria-label="Toggle menu">
+        <svg class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+      </label>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="hidden border-t border-line bg-white px-4 pb-6 shadow-lg peer-checked:block lg:!hidden">
+      <ul class="flex flex-col gap-4 pt-4 text-base font-medium">
+        <li><a href="#" aria-current="page">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#app">Our App</a></li>
+        <li><a href="#contact">Contacts</a></li>
+      </ul>
+      <div class="mt-5 flex items-center gap-4 font-medium">
+        <a href="#">Log in</a>
+        <a href="#" class="rounded-lg bg-brand px-6 py-2.5 text-white">Sign up</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= Hero ================= -->
+    <section class="mx-auto flex max-w-[1200px] flex-col items-center gap-10 px-4 pt-8 xl:flex-row xl:items-start xl:gap-0 xl:px-[15px] xl:pt-[46px]">
+      <div class="relative z-10 text-center xl:w-[500px] xl:shrink-0 xl:pt-[68px] xl:text-left">
+        <h1 class="text-[40px] font-extrabold leading-[1.2] text-navy sm:text-[56px] xl:whitespace-nowrap xl:text-[70px] xl:leading-[80px]">
+          We boost <br class="hidden xl:block" />growth for your <br class="hidden xl:block" />statup business
+        </h1>
+        <p class="mx-auto mt-5 max-w-[530px] text-base font-medium leading-7 sm:text-lg xl:mx-0 xl:mt-[38px] xl:w-[545px] xl:max-w-none xl:text-[22px]">
+          Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment
+        </p>
+        <div class="mt-8 flex items-center justify-center gap-7 xl:mt-[43px] xl:justify-start">
+          <a href="#" class="rounded-lg bg-brand px-8 py-3 text-base font-medium text-white transition hover:bg-orange-600 xl:w-[162px] xl:px-0 xl:text-center">
+            Get Started
+          </a>
+          <a href="#" class="group flex items-center gap-6 font-abel text-lg">
+            <img src="images/play.png" alt="" class="w-[46px] transition group-hover:scale-105" />
+            Learn More
+          </a>
+        </div>
+      </div>
+
+      <div class="flex w-full justify-center xl:-mr-[22px] xl:flex-1 xl:justify-end">
+        <img src="images/hero.png" alt="Smiling man using his phone" class="w-full max-w-[692px] xl:w-[692px] xl:max-w-none" />
+      </div>
+    </section>
+
+    <!-- ================= Service ================= -->
+    <section id="about" class="mx-auto max-w-[1200px] px-4 pt-16 lg:px-[15px] lg:pt-[92px]">
+      <div class="text-center">
+        <p class="font-abel text-sm uppercase tracking-[0.4em] text-[#8A898E]">Service</p>
+        <h2 class="mt-1 font-abel text-[36px] leading-tight text-navy sm:text-[44px] lg:text-[52px]">Our Vison &amp; Our Goal</h2>
+      </div>
+
+      <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:mt-[95px] lg:grid-cols-3 xl:gap-[57px]">
+        <!-- card -->
+        <div class="flex flex-col items-center rounded-3xl bg-white px-6 pb-11 xl:px-10 pt-5 text-center shadow-card lg:min-h-[495px]">
+          <img src="images/icon-design.png" alt="" class="w-[84px]" />
+          <h3 class="mt-9 font-abel text-[30px] leading-none xl:text-[36px]">Graphic Design</h3>
+          <p class="mt-8 text-base leading-7 lg:text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.
+          </p>
+          <a href="#" class="mt-auto inline-block w-[162px] rounded-lg bg-brand py-3 text-base font-medium text-white transition hover:bg-orange-600 max-lg:mt-8">Learn More</a>
+        </div>
+
+        <div class="flex flex-col items-center rounded-3xl bg-white px-6 pb-11 xl:px-10 pt-5 text-center shadow-card lg:min-h-[495px]">
+          <img src="images/icon-video.png" alt="" class="w-[84px]" />
+          <h3 class="mt-9 font-abel text-[30px] leading-none xl:text-[36px]">Video Editing</h3>
+          <p class="mt-8 text-base leading-7 lg:text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.
+          </p>
+          <a href="#" class="mt-auto inline-block w-[162px] rounded-lg bg-brand py-3 text-base font-medium text-white transition hover:bg-orange-600 max-lg:mt-8">Learn More</a>
+        </div>
+
+        <div class="flex flex-col items-center rounded-3xl bg-white px-6 pb-11 xl:px-10 pt-5 text-center shadow-card sm:col-span-2 sm:mx-auto sm:max-w-[352px] lg:col-span-1 lg:min-h-[495px] lg:max-w-none">
+          <img src="images/icon-marketing.png" alt="" class="w-[84px]" />
+          <h3 class="mt-9 font-abel text-[30px] leading-none xl:text-[36px]">Digital Marketing</h3>
+          <p class="mt-8 text-base leading-7 lg:text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.
+          </p>
+          <a href="#" class="mt-auto inline-block w-[162px] rounded-lg bg-brand py-3 text-base font-medium text-white transition hover:bg-orange-600 max-lg:mt-8">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Many Blocks ================= -->
+    <section id="app" class="mx-auto grid max-w-[1200px] gap-10 px-4 pt-20 font-dm lg:grid-cols-[483px_1fr] lg:gap-0 lg:px-[15px] lg:pt-[183px]">
+      <div class="flex flex-col text-center lg:pt-6 lg:text-left">
+        <h3 class="mx-auto max-w-[260px] text-[22px] font-medium leading-8 text-indigo lg:mx-0">Many Blocks and Components</h3>
+        <p class="mx-auto mt-5 max-w-[310px] text-base leading-[26px] text-muted lg:mx-0 lg:mt-[54px]">
+          Startup Framework contains components and complex blocks which can easily be integrated into almost any design.
+        </p>
+        <a href="#" class="mx-auto mt-8 inline-block w-[132px] rounded-full border-2 border-line py-[10px] text-center font-medium text-indigo transition hover:border-indigo lg:mx-0 lg:mt-auto lg:mb-[52px]">
+          Explore
+        </a>
+      </div>
+      <img src="images/blocks.png" alt="Colourful chair on a pink background" class="w-full rounded-lg" />
+    </section>
+
+    <!-- ================= Testimonials ================= -->
+    <section class="mx-auto max-w-[1200px] px-4 pt-20 lg:px-[15px] lg:pt-[133px]">
+      <div class="text-center">
+        <p class="font-abel text-sm uppercase tracking-[0.4em] text-[#8A898E]">Testmonials</p>
+        <h2 class="mt-1 font-abel text-[36px] leading-tight text-navy sm:text-[44px] lg:text-[52px]">What Clients say about us</h2>
+      </div>
+
+      <div class="mx-auto mt-12 grid max-w-[908px] gap-x-[100px] gap-y-12 font-dm md:grid-cols-2 lg:mt-[118px] lg:gap-y-[87px]">
+        <div class="flex gap-5 sm:gap-[30px]">
+          <img src="images/client-1.png" alt="Rayhan Curran" class="h-[60px] w-[60px] shrink-0 rounded-lg object-cover sm:h-[70px] sm:w-[70px]" />
+          <div class="flex flex-col">
+            <p class="text-lg leading-7 text-navy md:min-h-[140px]">
+              Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support
+            </p>
+            <p class="mt-4 text-sm font-bold uppercase tracking-[0.15em] text-[#B6BBC2] md:mt-5">Rayhan Curran</p>
+          </div>
+        </div>
+
+        <div class="flex gap-5 sm:gap-[30px]">
+          <img src="images/client-2.png" alt="Kayley Frame" class="h-[60px] w-[60px] shrink-0 rounded-lg object-cover sm:h-[70px] sm:w-[70px]" />
+          <div class="flex flex-col">
+            <p class="text-lg leading-7 text-navy md:min-h-[140px]">
+              As a business targeting high net worth individuals, we were looking for a slick, cool and mini-malistic design for our website
+            </p>
+            <p class="mt-4 text-sm font-bold uppercase tracking-[0.15em] text-[#B6BBC2] md:mt-5">Kayley Frame</p>
+          </div>
+        </div>
+
+        <div class="flex gap-5 sm:gap-[30px]">
+          <img src="images/client-3.png" alt="Gene Whitfield" class="h-[60px] w-[60px] shrink-0 rounded-lg object-cover sm:h-[70px] sm:w-[70px]" />
+          <div class="flex flex-col">
+            <p class="text-lg leading-7 text-navy md:min-h-[140px]">
+              The most important part of the Startup Framework is the samples
+            </p>
+            <p class="mt-4 text-sm font-bold uppercase tracking-[0.15em] text-[#B6BBC2] md:mt-5">Gene Whitfield</p>
+          </div>
+        </div>
+
+        <div class="flex gap-5 sm:gap-[30px]">
+          <img src="images/client-4.png" alt="Allan Kim" class="h-[60px] w-[60px] shrink-0 rounded-lg object-cover sm:h-[70px] sm:w-[70px]" />
+          <div class="flex flex-col">
+            <p class="text-lg leading-7 text-navy md:min-h-[140px]">
+              I’ve built my website with Startup just in one day, and it was ready-to-go.
+            </p>
+            <p class="mt-4 text-sm font-bold uppercase tracking-[0.15em] text-[#B6BBC2] md:mt-5">Allan Kim</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Team ================= -->
+    <section class="mx-auto max-w-[1200px] px-4 pt-20 lg:px-[15px] lg:pt-[175px]">
+      <div class="text-center">
+        <p class="font-abel text-sm uppercase tracking-[0.4em] text-[#8A898E]">Our Team</p>
+        <h2 class="mt-1 font-abel text-[36px] leading-tight text-navy sm:text-[44px] lg:text-[52px]">Meet The Team</h2>
+      </div>
+
+      <div class="mx-auto mt-10 grid max-w-[368px] gap-8 font-dm sm:max-w-none sm:grid-cols-2 lg:mt-[38px] lg:grid-cols-3">
+        <div class="overflow-hidden rounded-lg border-2 border-line text-center">
+          <img src="images/team-1.png" alt="Vanessa Laird" class="mx-auto mt-[48px] h-[120px] w-[120px] rounded-full object-cover" />
+          <h4 class="mt-[30px] text-[22px] text-indigo">Vanessa Laird</h4>
+          <p class="mt-3 pb-[38px] text-sm font-bold uppercase tracking-[0.15em] text-muted">UI Designer</p>
+          <div class="grid h-[60px] grid-cols-3 divide-x-2 divide-line border-t-2 border-line">
+            <a href="#" aria-label="Facebook"></a><a href="#" aria-label="Twitter"></a><a href="#" aria-label="LinkedIn"></a>
+          </div>
+        </div>
+
+        <div class="overflow-hidden rounded-lg border-2 border-line text-center">
+          <img src="images/team-2.png" alt="Mason Campbell" class="mx-auto mt-[48px] h-[120px] w-[120px] rounded-full object-cover" />
+          <h4 class="mt-[30px] text-[22px] text-indigo">Mason Campbell</h4>
+          <p class="mt-3 pb-[38px] text-sm font-bold uppercase tracking-[0.15em] text-muted">UI Designer</p>
+          <div class="grid h-[60px] grid-cols-3 divide-x-2 divide-line border-t-2 border-line">
+            <a href="#" aria-label="Facebook"></a><a href="#" aria-label="Twitter"></a><a href="#" aria-label="LinkedIn"></a>
+          </div>
+        </div>
+
+        <div class="overflow-hidden rounded-lg border-2 border-line text-center sm:col-span-2 sm:mx-auto sm:w-full sm:max-w-[368px] lg:col-span-1 lg:max-w-none">
+          <img src="images/team-3.png" alt="Irea Evans" class="mx-auto mt-[48px] h-[120px] w-[120px] rounded-full object-cover" />
+          <h4 class="mt-[30px] text-[22px] text-indigo">Irea Evans</h4>
+          <p class="mt-3 pb-[38px] text-sm font-bold uppercase tracking-[0.15em] text-muted">Client Manager</p>
+          <div class="grid h-[60px] grid-cols-3 divide-x-2 divide-line border-t-2 border-line">
+            <a href="#" aria-label="Facebook"></a><a href="#" aria-label="Twitter"></a><a href="#" aria-label="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Newsletter ================= -->
+    <section id="contact" class="mx-auto max-w-[1200px] px-4 pt-20 lg:px-[15px] lg:pt-[100px]">
+      <div class="text-center">
+        <p class="font-abel text-sm uppercase tracking-[0.4em] text-[#8A898E]">Our Team</p>
+        <h2 class="mt-1 font-abel text-[36px] leading-tight text-navy sm:text-[44px] lg:text-[52px]">Subscribe Our Newsletter</h2>
+      </div>
+
+      <div class="mt-10 grid items-start gap-10 lg:mt-[72px] lg:grid-cols-[472px_1fr] lg:gap-0">
+        <img src="images/newsletter.png" alt="" class="mx-auto w-[220px] sm:w-[280px] lg:ml-[49px] lg:w-[326px]" />
+
+        <form class="lg:pt-[42px]" onsubmit="event.preventDefault(); this.reset();">
+          <p class="text-center font-roboto text-base leading-[29px] sm:text-lg lg:pl-[11px] lg:text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+          </p>
+          <input
+            type="email"
+            required
+            placeholder="Your E-mail here..."
+            class="mt-8 h-[64px] w-full rounded-full border border-[#E5E5E5] px-8 font-roboto text-lg text-black shadow-field outline-none placeholder:text-black focus:border-brand sm:h-[76px] sm:px-[57px] sm:text-[22px] lg:mt-[45px]"
+          />
+          <button type="submit" class="mt-8 h-12 w-full rounded-lg bg-brand text-base font-medium text-white shadow-[0_15px_35px_rgba(0,0,0,0.06)] transition hover:bg-orange-600 sm:text-lg lg:mt-[44px]">
+            Subscribe Our Newsletter
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="mx-auto max-w-[1200px] px-4 pt-20 font-dm lg:px-[15px] lg:pt-[120px]">
+    <div class="flex flex-col items-center gap-6 border-b-2 border-line pb-6 lg:flex-row lg:gap-0 lg:pb-[30px]">
+      <img src="images/logo.png" alt="Epixelab" class="w-[113px]" />
+      <p class="text-center text-base text-indigo lg:ml-[87px]">© 2020 Epixelab. All rights reserved.</p>
+      <ul class="flex flex-wrap justify-center gap-x-10 gap-y-3 text-base text-indigo lg:ml-auto">
+        <li><a href="#" class="transition hover:text-brand">Portfolio</a></li>
+        <li><a href="#" class="transition hover:text-brand">How it Works</a></li>
+        <li><a href="#" class="transition hover:text-brand">Pricing</a></li>
+        <li><a href="#" class="transition hover:text-brand">About</a></li>
+        <li><a href="#" class="transition hover:text-brand">Login</a></li>
+      </ul>
+    </div>
+    <p class="py-8 text-center text-[15px] text-muted lg:pb-[45px] lg:pt-[37px] lg:text-left">
+      Startup Framework contains components and complex blocks which can easily be integrated into almost any design.
+    </p>
+  </footer>
+
+</body>
+</html>
